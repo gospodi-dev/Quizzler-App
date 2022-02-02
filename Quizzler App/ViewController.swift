@@ -16,9 +16,9 @@ class ViewController: UIViewController {
     
     
     let quiz = [
-        "Four + Two is equal to Six.",
-        "Bla-Bla + Bla-Bla-Bla is equal to Six.",
-        "BuuGaaaa"
+        ["Four + Two is equal to Six.", "True"],
+        ["Bla-Bla + Bla-Bla-Bla is equal to Six.", "True"],
+        ["BuuGaaaa", "False"]
     ]
     
     var questionNumber = 0
@@ -35,7 +35,7 @@ class ViewController: UIViewController {
     }
     
     func updateUI(){
-        questionLabel.text = quiz[questionNumber]
+        questionLabel.text = quiz[questionNumber][0]
     }
     
 }
