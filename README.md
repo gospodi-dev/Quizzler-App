@@ -1,4 +1,4 @@
-# Quizzler-App
+# Quizzler App (True or False)
 ![Image](/image_app.png)
 ## What you will create
 
