@@ -77,6 +77,10 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="h1h-J6-LE7" secondAttribute="bottom" id="xeR-Zz-gYu"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="progressBar" destination="yoL-BB-VPH" id="nKN-3M-AhP"/>
+                        <outlet property="questionLabel" destination="0NP-ZU-GaY" id="XIJ-od-Xdb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
