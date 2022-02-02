@@ -40,8 +40,13 @@ class ViewController: UIViewController {
             print("Неверно!")
         }
         
+        if questionNumber + 1 < quiz.count {
+            questionNumber += 1
+        } else {
+            questionNumber = 0
+        }
         
-        questionNumber += 1
+        
         updateUI()
     }
     
