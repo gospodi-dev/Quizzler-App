@@ -16,9 +16,10 @@ class ViewController: UIViewController {
     
     
     let quiz = [
-        ["Four + Two is equal to Six.", "True"],
-        ["Bla-Bla + Bla-Bla-Bla is equal to Six.", "True"],
-        ["BuuGaaaa", "False"]
+        
+        Question(text: "Four + Two is equal to Six.", answer: "True"),
+        Question(text: "Bla-Bla + Bla-Bla-Bla is equal to Six.", answer: "True"),
+        Question(text: "BuuGaaaa", answer: "False")
     ]
     
     var questionNumber = 0

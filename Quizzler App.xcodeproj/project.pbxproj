@@ -13,6 +13,7 @@
 		CC9E47A727AA93750079431E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC9E47A527AA93750079431E /* Main.storyboard */; };
 		CC9E47A927AA93760079431E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC9E47A827AA93760079431E /* Assets.xcassets */; };
 		CC9E47AC27AA93760079431E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC9E47AA27AA93760079431E /* LaunchScreen.storyboard */; };
+		CC9E47B427AADCD80079431E /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9E47B327AADCD80079431E /* Question.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CC9E47A827AA93760079431E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC9E47AB27AA93760079431E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC9E47AD27AA93760079431E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC9E47B327AADCD80079431E /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				CC9E47A827AA93760079431E /* Assets.xcassets */,
 				CC9E47AA27AA93760079431E /* LaunchScreen.storyboard */,
 				CC9E47AD27AA93760079431E /* Info.plist */,
+				CC9E47B327AADCD80079431E /* Question.swift */,
 			);
 			path = "Quizzler App";
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC9E47A427AA93750079431E /* ViewController.swift in Sources */,
+				CC9E47B427AADCD80079431E /* Question.swift in Sources */,
 				CC9E47A027AA93750079431E /* AppDelegate.swift in Sources */,
 				CC9E47A227AA93750079431E /* SceneDelegate.swift in Sources */,
 			);
