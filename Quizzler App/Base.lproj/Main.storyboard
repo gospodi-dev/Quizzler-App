@@ -22,16 +22,16 @@
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="h1h-J6-LE7">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <rect key="frame" x="20" y="44" width="374" height="818"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalCompressionResistancePriority="1000" text="Question Text" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0NP-ZU-GaY">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="618"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="618"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lOi-lU-bYX">
-                                        <rect key="frame" x="0.0" y="628" width="414" height="80"/>
+                                        <rect key="frame" x="0.0" y="628" width="374" height="80"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="80" id="sgW-N0-cCU"/>
                                         </constraints>
@@ -42,7 +42,7 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="isW-HN-X4N">
-                                        <rect key="frame" x="0.0" y="718" width="414" height="80"/>
+                                        <rect key="frame" x="0.0" y="718" width="374" height="80"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="80" id="2Nc-Uz-ECs"/>
                                         </constraints>
@@ -53,7 +53,7 @@
                                         </state>
                                     </button>
                                     <progressView opaque="NO" contentMode="scaleToFill" progressViewStyle="bar" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="yoL-BB-VPH">
-                                        <rect key="frame" x="0.0" y="808" width="414" height="11"/>
+                                        <rect key="frame" x="0.0" y="808" width="374" height="11"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="tintColor" red="0.2770131528" green="0.3800790906" blue="0.57570761439999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
@@ -69,10 +69,10 @@
                         <color key="backgroundColor" red="0.099928513071895528" green="0.24001073946289878" blue="0.4633049242424242" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="n6u-JL-Hfs" secondAttribute="trailing" id="04U-bA-xea"/>
-                            <constraint firstItem="h1h-J6-LE7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="21e-rC-TOT"/>
+                            <constraint firstItem="h1h-J6-LE7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="21e-rC-TOT"/>
                             <constraint firstItem="h1h-J6-LE7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="80h-hf-S1u"/>
                             <constraint firstAttribute="bottom" secondItem="n6u-JL-Hfs" secondAttribute="bottom" id="fLO-dZ-O64"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="h1h-J6-LE7" secondAttribute="trailing" id="qGJ-OR-9xa"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="h1h-J6-LE7" secondAttribute="trailing" id="qGJ-OR-9xa"/>
                             <constraint firstItem="n6u-JL-Hfs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="rTd-i7-rqq"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="h1h-J6-LE7" secondAttribute="bottom" id="xeR-Zz-gYu"/>
                         </constraints>
