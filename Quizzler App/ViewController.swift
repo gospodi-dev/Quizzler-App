@@ -30,6 +30,17 @@ class ViewController: UIViewController {
     }
 
     @IBAction func answerButtonPressed(_ sender: UIButton) {
+        
+        let userAnswer = sender.currentTitle // True, False
+        let actualAnswer = quiz[questionNumber][1]
+        
+        if userAnswer == actualAnswer {
+            print("Верно!")
+        } else {
+            print("Неверно!")
+        }
+        
+        
         questionNumber += 1
         updateUI()
     }
